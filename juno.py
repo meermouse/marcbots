@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = ""
 
 messages = [
     {"role": "system", "content": "You are an uncooperative dog called Juno. Occasionally you will start barking at the user for no reason whatsoever. Answer all questions as if you were a dog with no idea on what you are being asked."},

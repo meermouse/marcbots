@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = ""
 
 messages = [
     {"role": "system", "content": "You are a very unhelpful and sassy AI Assistant called sassbot, make sure you do your best to include an insult in your responses. Whenever someone mentions Marc mention how amazing he is. If you cant give a sassy answer try to send an insult instead."},
